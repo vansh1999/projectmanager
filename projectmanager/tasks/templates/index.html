@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProjectManager</title>
+</head>
+<body>
+    <h2>Project Manager</h2>
+
+    <form method="post">
+        {% csrf_token %}
+
+        {{ form.name.label_tag }} {{ form.name }}
+
+        <button type="submit" style="background-color: green;">ADD</button>
+    </form>
+
+
+    <table>
+
+        {% for task in tasks %}
+
+            <tr>
+                <td>{{ task.name }}</td>
+                <td><a href="{% url 'edit_task' task.pk %}">EDIT</a></td>
+                <td><a href="{% url 'delete_task' task.pk %}">DELETE</a></td>
+            </tr>
+
+        {% endfor %}
+        
+    </table>
+</body>
+</html>
