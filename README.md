@@ -10,6 +10,15 @@ Project Manager is a simple task management application built using Django. It p
 ![Screenshot 2024-10-05 at 3 02 49 PM](https://github.com/user-attachments/assets/c9d5c13a-ee54-4b4d-bb5d-52bb0882ce22)
 
 
+## Blogs
+
+https://medium.com/@vansh.bhardwaj1999/how-to-set-up-an-eks-cluster-and-deploy-a-three-tier-application-bff1937a6590
+
+https://vansh.tech/how-to-set-up-an-eks-cluster-and-deploy-a-three-tier-application
+
+
+
+
 
 
 
