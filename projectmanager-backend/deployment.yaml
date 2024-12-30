@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: projectmanager
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: projectmanager
+  template:
+    metadata:
+      labels:
+        app: projectmanager
+    spec:
+      containers:
+      - name: projectmanager
+        image: vansh1999/projectmanager:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: DJANGO_SETTINGS_MODULE
+          value: "projectmanager.settings"
