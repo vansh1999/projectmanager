@@ -1,4 +1,9 @@
-## Project Manager
+## Project: EKS Cluster and Deploy a Three-Tier Application
+
+![eks_cluster_3_tier_application](https://github.com/user-attachments/assets/f2d8149b-3389-4633-af47-0823632b026c)
+
+
+### Project Manager
 
 Project Manager is a simple task management application built using Django. It provides CRUD (Create, Read, Update, Delete) functionality to manage tasks. The UI allows users to add tasks, edit them, and delete tasks easily, all from a single page interface.
 
